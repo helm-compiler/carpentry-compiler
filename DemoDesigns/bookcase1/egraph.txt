@@ -1,0 +1,36 @@
+Head index: -1 head_index:0 shapes: 0 1 1 2 3 4 4 5 6 7 8 8 edges: 1 : (0 ) arranges: 0 : 
+
+
+E-class: 0 head_index -1 shapes: 0 1 1 2 3 4 4 5 6 7 8 8 valid: 1 edges: 1 : (1 2 3 ) arranges: 0 : 
+E-class: 1 head_index -1 shapes: 8 8 2 7 6 1 1 valid: 1 edges: 2 : (4 5 6 )(7 8 9 6 6 ) arranges: 1 : 0
+E-class: 2 head_index -1 shapes: 5 4 0 3 valid: 1 edges: 1 : (10 11 ) arranges: 1 : 1
+E-class: 3 head_index -1 shapes: 4 valid: 1 edges: 0 :  arranges: 1 : 15
+E-class: 4 head_index -1 shapes: 8 8 2 7 valid: 1 edges: 1 : (7 8 ) arranges: 1 : 3
+E-class: 5 head_index -1 shapes: 6 1 valid: 1 edges: 1 : (9 6 ) arranges: 1 : 4
+E-class: 6 head_index -1 shapes: 1 valid: 1 edges: 0 :  arranges: 1 : 9
+E-class: 7 head_index -1 shapes: 8 8 2 valid: 1 edges: 0 :  arranges: 1 : 6
+E-class: 8 head_index -1 shapes: 7 valid: 1 edges: 0 :  arranges: 1 : 7
+E-class: 9 head_index -1 shapes: 6 valid: 1 edges: 0 :  arranges: 1 : 8
+E-class: 10 head_index -1 shapes: 5 4 valid: 1 edges: 0 :  arranges: 1 : 10
+E-class: 11 head_index -1 shapes: 0 3 valid: 1 edges: 1 : (13 14 ) arranges: 1 : 11
+E-class: 12 head_index -1 shapes: 5 valid: 0 edges: 0 :  arranges: 1 : 12
+E-class: 13 head_index -1 shapes: 0 valid: 1 edges: 0 :  arranges: 1 : 13
+E-class: 14 head_index -1 shapes: 3 valid: 1 edges: 0 :  arranges: 1 : 14
+
+
+Arrange index: 0 wlc: 4 wl:0 shapes: 8 8 2 7 6 1 1
+Arrange index: 1 wlc: 4 wl:0 shapes: 5 4 0 3
+Arrange index: 2 wlc: 4 wl:0 shapes: 4
+Arrange index: 3 wlc: 4 wl:1 shapes: 8 8 2 7
+Arrange index: 4 wlc: 4 wl:1 shapes: 6 1
+Arrange index: 5 wlc: 4 wl:1 shapes: 1
+Arrange index: 6 wlc: 4 wl:2 shapes: 8 8 2
+Arrange index: 7 wlc: 4 wl:2 shapes: 7
+Arrange index: 8 wlc: 4 wl:2 shapes: 6
+Arrange index: 9 wlc: 4 wl:2 shapes: 1
+Arrange index: 10 wlc: 4 wl:1 shapes: 5 4
+Arrange index: 11 wlc: 4 wl:1 shapes: 0 3
+Arrange index: 12 wlc: 4 wl:2 shapes: 5
+Arrange index: 13 wlc: 4 wl:2 shapes: 0
+Arrange index: 14 wlc: 4 wl:2 shapes: 3
+Arrange index: 15 wlc: 4 wl:1 shapes: 4

@@ -1,0 +1,1 @@
+python plot.py Z:\Users\haisenzhao\Downloads\packing\design_0\egraph\collapse\result.xml 0 0 0

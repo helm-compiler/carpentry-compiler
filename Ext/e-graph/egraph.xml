@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <EClass ID="-1">
+        <ENode>
+            <C>0</C>
+        </ENode>
+    </EClass>
+    <EClass ID="0">
+        <ENode>
+            <C>1</C>
+            <C>2</C>
+        </ENode>
+        <ENode>
+            <C>7</C>
+            <C>8</C>
+        </ENode>
+        <ENode>
+            <C>9</C>
+            <C>10</C>
+        </ENode>
+        <ENode>
+            <C>3</C>
+            <C>4</C>
+            <C>5</C>
+            <C>6</C>
+        </ENode>
+    </EClass>
+    <EClass ID="1">
+        <ENode>
+            <C>3</C>
+            <C>4</C>
+        </ENode>
+    </EClass>
+    <EClass ID="2">
+        <ENode>
+            <C>5</C>
+            <C>6</C>
+        </ENode>
+    </EClass>
+    <EClass ID="3"/>
+    <EClass ID="4"/>
+    <EClass ID="5"/>
+    <EClass ID="6"/>
+    <EClass ID="7">
+        <ENode>
+            <C>3</C>
+            <C>5</C>
+        </ENode>
+    </EClass>
+    <EClass ID="8">
+        <ENode>
+            <C>4</C>
+            <C>6</C>
+        </ENode>
+    </EClass>
+    <EClass ID="9">
+        <ENode>
+            <C>3</C>
+            <C>6</C>
+        </ENode>
+    </EClass>
+    <EClass ID="10">
+        <ENode>
+            <C>4</C>
+            <C>5</C>
+        </ENode>
+    </EClass>
+</root>

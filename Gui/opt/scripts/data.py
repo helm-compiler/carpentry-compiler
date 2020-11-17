@@ -1,0 +1,9 @@
+python plot.py .\birdhouse-best.xml 2.7 1.57341 32
+python .\plot.py .\achair-result.xml 4 1.047768 6.5
+python .\plot.py .\coffeetable-result.xml 10.475 5.7178 69.5
+python .\plot.py .\flowerpot-result.xml 1.3 1.0575 23
+python .\plot.py .\draftingtable-result.xml 9.8 1.2934 16 
+python .\plot.py .\ztable-result.xml 9.15 1.1391 17
+python .\plot.py .\schair-best-result.xml 4.3 1.056 13.5
+python .\plot.py .\bookcase-result.xml 3 1 9.5
+python .\plot.py .\bench-result.xml 8 1.06 7

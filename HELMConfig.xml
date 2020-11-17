@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+
+<!--<Tool Type = "Bandsaw"></Tool> -->	
+<Tool Type = "Chopsaw"><Para Name = "CHOPSAW_MIN_X_PRIME">-1e-4</Para></Tool>
+<Tool Type = "Jigsaw"></Tool>
+<Tool Type = "Tracksaw"></Tool>
+<!-- <Tool Type = "Drillpress">	</Tool> -->	
+
+<Stock>
+	<WLC Name = "wood_0.75x12x20" L="304.8" W="508.0" H="19.05">8538f8db-adb6-4b5d-8ec0-6d6bad325ac4</WLC>	
+	<WLC Name = "wood_0.75x24x20" L="609.6" W="508.0" H="19.05">786c393f-b7fa-4910-9fc7-1492021f1a77</WLC>	
+	<!-- <WLC Name = "wood_2x2" L="762.0" W="762.0" H="19.05">b024b206-900c-4e9a-a934-00293b4bd186</WLC> -->
+</Stock>	
+	
+<Stock>	
+	<WLC Name = "wood_0.5x12x20" L="304.8" W="609.6" H="12.7">af330a8f-db6b-46ee-9427-2af4ac227167</WLC>
+	<WLC Name = "wood_0.5x24x20" L="609.6" W="609.6" H="12.7">44335d53-2916-4f71-81b3-2a5d76d71fff</WLC>	
+	<!-- <WLC Name = "wood_2x2" L="1219.2" W="609.6" H="12.7">b024b206-900c-4e9a-a934-00293b4bd186</WLC> -->	
+</Stock>	
+	
+<Stock>	
+	<WLC Name = "wood_1x12x20" L="304.8" W="508.0" H="38.1">e49f6c42-16fe-4b9c-8198-0469f33182da</WLC>
+	<WLC Name = "wood_1x24x20" L="609.6" W="508.0" H="38.1">aac77b14-f1cf-4950-b48c-c4d9e012fddb</WLC>
+</Stock>	
+	
+<Stock>	
+	<WLC Name = "lumber_24x2x2" L="609.6" W="38.1" H="38.1">15411ad4-b2b1-4dbe-b5f3-f6e5df128d31</WLC>	
+	<WLC Name = "lumber_48x2x2" L="1219.2" W="38.1" H="38.1">d01ecf45-d768-404c-8518-2dae6444cdff</WLC>
+	<WLC Name = "lumber_96x2x2" L="2438.4" W="38.1" H="38.1">1df1a8cb-d30e-4c7f-93ab-7de601a610ad</WLC>
+</Stock>	
+
+<Stock>	
+	<WLC Name = "lumber_24x2x4" L="609.6" W="88.9" H="38.1">b054fd41-d023-4cde-b5ca-cf6356ec6b14</WLC>	
+	<WLC Name = "lumber_48x2x4" L="1219.2" W="88.9" H="38.1">32b733c8-9bb2-4c2b-b3af-4844992d5807</WLC>	
+	<WLC Name = "lumber_96x2x4" L="2438.4" W="88.9" H="38.1">805da52d-c8e4-4ec6-8cfe-8a304f52ff24</WLC>	
+</Stock>	
+
+<Stock>	
+	<WLC Name = "lumber_24x2x4" L="609.6" W="88.9" H="88.9">764917a9-4b5a-4e52-a402-5cdfc7b0d055</WLC>	
+	<WLC Name = "lumber_48x2x4" L="1219.2" W="88.9" H="88.9">906eb3e2-1df2-4764-a150-e736a3a37483</WLC>	
+	<WLC Name = "lumber_96x2x4" L="2438.4" W="88.9" H="88.9">7eaa6d88-3d87-4afa-a5f5-2d0cae939480</WLC>	
+</Stock>	
+
+<Stock>	
+	<WLC Name = "lumber_24x2x8" L="609.6" W="184.15" H="38.1">652f5cd5-9e6e-48fa-b3f8-176f10fcdb56</WLC>	
+	<WLC Name = "lumber_48x2x8" L="1219.2" W="184.15" H="38.1">a032d738-d738-4880-8f50-36f4250db666</WLC>
+	<WLC Name = "lumber_96x2x8" L="2438.4" W="184.15" H="38.1">b024b206-900c-4e9a-a934-00293b4bd186</WLC>
+	<!--<WLC Name = "lumber_192x2x8" L="4876.8" W="184.15" H="38.1">b024b206-900c-4e9a-a934-00293b4bd185</WLC>-->
+</Stock>
+
+<Params1><!--Pipeline_One-->
+	<PipelineSelection>1</PipelineSelection>
+	<RefPoint>100.0 100.0 100.0</RefPoint>
+	<RandomPruning>0</RandomPruning>	
+	<RandomSeed>0</RandomSeed>	
+	<MaximalPerm>100</MaximalPerm>
+	<Kerf>3.175</Kerf>
+	<AngleMatchError>0.08</AngleMatchError>
+	<PartMatchError>0.05</PartMatchError>
+	<MaximalCuttingDistance>200.0</MaximalCuttingDistance>
+	<SafeDistance>2.54</SafeDistance>
+	<TotalOrderNumber>50</TotalOrderNumber>
+	<PruningLimitation>100</PruningLimitation>
+	<OptPopSize>64</OptPopSize>
+	<OptNIslands>1</OptNIslands>
+	<OptEvoGens>200</OptEvoGens>
+	<OptNIterations>1</OptNIterations>
+	<OptNTerminal>100</OptNTerminal>
+	<EGraphFolder>E:\CarpentryCompiler\WorkingSpace\e-graph</EGraphFolder>
+	<PackingFolder>E:\CarpentryCompiler\WorkingSpace\packing</PackingFolder>
+	<MainObj>E:\CarpentryCompiler\FreeCAD\src\Mod\PartDesign\DemoDesigns\MainObj19.5</MainObj>
+	<!--<MainObj>E:\CarpentryCompiler\FreeCAD\src\Mod\PartDesign\DemoDesigns\MainObj</MainObj>-->
+	<!--<MainObj>E:\CarpentryCompiler\FreeCAD\src\Mod\PartDesign\DemoDesigns\bookcase1</MainObj>-->
+	<RunDesign>1</RunDesign>
+	<RunPack>1</RunPack>
+	<RunOrder>1</RunOrder>	
+	<RunOpt>1</RunOpt>
+	<InitGeneNb>4</InitGeneNb>
+	<ExplorationNb>10</ExplorationNb>
+	<SharedEGraph>1</SharedEGraph>
+	<OBJOutput>1</OBJOutput>
+	<!--Pipeline_Three-->
+	<TBranchNB>3</TBranchNB> <!--initiali egraph branch at each node-->
+	<TRandDelete>16</TRandDelete> <!--delete number during DAI-->
+	<TShuffleSelection>16</TShuffleSelection> <!-- different shuffle number in DAI-->
+	<TAddShuffle>16</TAddShuffle> <!-- different add shuffle number in DAI-->
+	<TExactNSGANB>6</TExactNSGANB>
+	<TAddFrontNB>2</TAddFrontNB>
+</Params1>
+<Params><!--Pipeline_Three-->
+	<PipelineSelection>3</PipelineSelection>
+	<RefPoint>100.0 100.0 100.0</RefPoint>
+	<RandomPruning>0</RandomPruning>	
+	<RandomSeed>0</RandomSeed>	
+	<MaximalPerm>2</MaximalPerm>
+	<Kerf>3.175</Kerf>
+	<AngleMatchError>0.08</AngleMatchError>
+	<PartMatchError>0.05</PartMatchError>
+	<MaximalCuttingDistance>200.0</MaximalCuttingDistance>
+	<SafeDistance>2.54</SafeDistance>
+	<TotalOrderNumber>1</TotalOrderNumber>
+	<PruningLimitation>1</PruningLimitation>
+	<OptPopSize>32</OptPopSize>
+	<OptNIslands>1</OptNIslands>
+	<OptEvoGens>200</OptEvoGens>
+	<OptNIterations>1</OptNIterations>
+	<OptNTerminal>10</OptNTerminal>
+	<EGraphFolder>E:\CarpentryCompiler\WorkingSpace\e-graph</EGraphFolder>
+	<PackingFolder>E:\CarpentryCompiler\WorkingSpace\packing</PackingFolder>
+	<MainObj>E:\CarpentryCompiler\FreeCAD\src\Mod\PartDesign\DemoDesigns\MainObj31</MainObj>
+	<RunDesign>1</RunDesign>
+	<RunPack>1</RunPack>
+	<RunOrder>1</RunOrder>	
+	<RunOpt>1</RunOpt>
+	<InitGeneNb>4</InitGeneNb>
+	<ExplorationNb>1</ExplorationNb>
+	<SharedEGraph>1</SharedEGraph>
+	<OBJOutput>0</OBJOutput>
+	<!--Pipeline_Three-->
+	<TInitFab>0</TInitFab>
+	<TInitDepth>1</TInitDepth>
+	<TBranchNB>2</TBranchNB> <!--initiali egraph branch at each node-->
+	<TRandDelete>4</TRandDelete> <!--delete number during DAI-->
+	<TShuffleSelection>4</TShuffleSelection> <!-- different shuffle number in DAI-->
+	<TAddShuffle>4</TAddShuffle> <!-- different add shuffle number in DAI-->
+	<TExactNSGANB>4</TExactNSGANB>
+	<TAddFrontNB>4</TAddFrontNB>
+</Params>
+<Params4><!--Pipeline_Four-->
+	<PipelineSelection>40</PipelineSelection>
+	<RefPoint>100.0 100.0 100.0</RefPoint>
+	<RandomPruning>0</RandomPruning>	
+	<RandomSeed>0</RandomSeed>	
+	<MaximalPerm>2</MaximalPerm>
+	<Kerf>3.175</Kerf>
+	<AngleMatchError>0.08</AngleMatchError>
+	<PartMatchError>0.05</PartMatchError>
+	<MaximalCuttingDistance>200.0</MaximalCuttingDistance>
+	<SafeDistance>2.54</SafeDistance>
+	<TotalOrderNumber>1</TotalOrderNumber>
+	<PruningLimitation>1</PruningLimitation>
+	<OptPopSize>32</OptPopSize>
+	<OptNIslands>1</OptNIslands>
+	<OptEvoGens>200</OptEvoGens>
+	<OptNIterations>1</OptNIterations>
+	<OptNTerminal>10</OptNTerminal>
+	<EGraphFolder>E:\CarpentryCompiler\WorkingSpace\e-graph</EGraphFolder>
+	<PackingFolder>E:\CarpentryCompiler\WorkingSpace\packing</PackingFolder>
+	<MainObj>E:\CarpentryCompiler\FreeCAD\src\Mod\PartDesign\DemoDesigns\MainObj19.5</MainObj>
+	<RunDesign>1</RunDesign>
+	<RunPack>1</RunPack>
+	<RunOrder>1</RunOrder>	
+	<RunOpt>1</RunOpt>
+	<InitGeneNb>4</InitGeneNb>
+	<ExplorationNb>10</ExplorationNb>
+	<SharedEGraph>1</SharedEGraph>
+	<OBJOutput>0</OBJOutput>
+	<!--Pipeline_Three-->
+	<TInitFab>1</TInitFab>
+	<TInitDepth>1</TInitDepth>
+	<TBranchNB>2</TBranchNB> <!--initiali egraph branch at each node-->
+	<TRandDelete>4</TRandDelete> <!--delete number during DAI-->
+	<TShuffleSelection>4</TShuffleSelection> <!-- different shuffle number in DAI-->
+	<TAddShuffle>4</TAddShuffle> <!-- different add shuffle number in DAI-->
+	<TExactNSGANB>4</TExactNSGANB>
+	<TAddFrontNB>4</TAddFrontNB>
+</Params4>
+<Params41><!--Pipeline_Four-->
+	<PipelineSelection>41</PipelineSelection>
+	<RefPoint>100.0 100.0 100.0</RefPoint>
+	<RandomPruning>0</RandomPruning>	
+	<RandomSeed>0</RandomSeed>	
+	<MaximalPerm>2</MaximalPerm>
+	<Kerf>3.175</Kerf>
+	<AngleMatchError>0.08</AngleMatchError>
+	<PartMatchError>0.05</PartMatchError>
+	<MaximalCuttingDistance>200.0</MaximalCuttingDistance>
+	<SafeDistance>2.54</SafeDistance>
+	<TotalOrderNumber>1</TotalOrderNumber>
+	<PruningLimitation>1</PruningLimitation>
+	<OptPopSize>32</OptPopSize>
+	<OptNIslands>1</OptNIslands>
+	<OptEvoGens>200</OptEvoGens>
+	<OptNIterations>1</OptNIterations>
+	<OptNTerminal>10</OptNTerminal>
+	<EGraphFolder>E:\CarpentryCompiler\WorkingSpace\e-graph</EGraphFolder>
+	<PackingFolder>E:\CarpentryCompiler\WorkingSpace\packing</PackingFolder>
+	<MainObj>E:\CarpentryCompiler\FreeCAD\src\Mod\PartDesign\DemoDesigns\MainObj31</MainObj>
+	<RunDesign>1</RunDesign>
+	<RunPack>1</RunPack>
+	<RunOrder>1</RunOrder>	
+	<RunOpt>1</RunOpt>
+	<InitGeneNb>4</InitGeneNb>
+	<ExplorationNb>1</ExplorationNb>
+	<SharedEGraph>1</SharedEGraph>
+	<OBJOutput>0</OBJOutput>
+	<!--Pipeline_Three-->
+	<TInitFab>0</TInitFab>
+	<TInitDepth>1</TInitDepth>
+	<TBranchNB>2</TBranchNB> <!--initiali egraph branch at each node-->
+	<TRandDelete>4</TRandDelete> <!--delete number during DAI-->
+	<TShuffleSelection>4</TShuffleSelection> <!-- different shuffle number in DAI-->
+	<TAddShuffle>4</TAddShuffle> <!-- different add shuffle number in DAI-->
+	<TExactNSGANB>4</TExactNSGANB>
+	<TAddFrontNB>4</TAddFrontNB>
+</Params41>
+</root>

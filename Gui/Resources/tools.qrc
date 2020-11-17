@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="Tools">
+    <file>icons/bandsaw.jpg</file>
+    <file>icons/chospaw.jpg</file>
+    <file>icons/drill.jpg</file>
+    <file>icons/jigsaw.jpg</file>
+  </qresource>
+</RCC>

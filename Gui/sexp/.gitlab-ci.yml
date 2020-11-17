@@ -1,0 +1,68 @@
+# SExp - A S-Expression Parser for C++
+# Copyright (C) 2018 Ingo Ruhnke <grumbel@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+image: ubuntu:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - apt-get -qq update
+  - apt-get -qq -y install lsb-release
+  - lsb_release -a
+  - apt-get -qq -y install
+    clang-6.0
+    g++-8
+    language-pack-en
+    language-pack-de
+    cmake
+    build-essential
+    libc++-dev
+
+.build_sexpr_template: &build_sexpr
+  stage: build
+  script:
+    - mkdir build
+    - cd build
+    - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DWARNINGS=ON -DWERROR=ON -DBUILD_TESTS=ON -DBUILD_BENCHMARKS=ON
+    - make VERBOSE=1
+    - make test VERBOSE=1 ARGS="-V"
+
+build:gcc:release:
+  <<: *build_sexpr
+  variables:
+    CXX: g++-8
+    BUILD_TYPE: Release
+
+build:clang:release:
+  <<: *build_sexpr
+  variables:
+    CXX: clang++-6.0
+    BUILD_TYPE: Release
+
+build:gcc:debug:
+  <<: *build_sexpr
+  variables:
+    CXX: g++-8
+    BUILD_TYPE: Debug
+
+build:clang:debug:
+  <<: *build_sexpr
+  variables:
+    CXX: clang++-6.0
+    BUILD_TYPE: Debug
+
+# EOF #

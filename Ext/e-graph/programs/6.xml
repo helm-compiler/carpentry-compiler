@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <Program id="1" wlc="4" arr="6">
+        <equivalent>
+            <line>(21dad88c-55b4-479a-9111-5df8f0d5658c) = Chopsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, 612693fd-6904-4d9e-98ef-adee1f8e5dba, 0c223822-dafe-43b3-8b7a-7295bba774b7, Ref(0.0000, 45.0000, 20.1250), 3.5000)
+</line>
+            <line>(21dad88c-55b4-479a-9111-5df8f0d5658c) = Chopsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, 5de52133-a4f3-4cf4-9928-624e6c3cc824, 3ccd7f22-1e7d-41d4-85e3-16b46645db40, Ref(45.0000, 0.0000, 20.1250), 1.5000)
+</line>
+            <line>(21dad88c-55b4-479a-9111-5df8f0d5658c) = Chopsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, 09bb57a1-4ef1-4f4c-be9a-f9b4f20009ad, c9ea93c6-980e-4432-9b65-f14204d9ae11, Ref(0.0000, -45.0000, 20.1250), 3.5000)
+</line>
+            <line>(21dad88c-55b4-479a-9111-5df8f0d5658c) = Chopsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, 48ca85e4-e0a7-4b12-8ca6-899932cfc6c2, 755ec158-f3bc-47be-95d4-22f5783a102d, Ref(-45.0000, 0.0000, 23.6250), 1.5000)
+</line>
+            <line>(21dad88c-55b4-479a-9111-5df8f0d5658c) = Bandsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, Path(6.1574/-1.1225, 97.3025/90.0225), Ref((34604188-8bde-4670-8ebb-b01e204fa5e3, 0.286612, 0c223822-dafe-43b3-8b7a-7295bba774b7, 0), (3ccd7f22-1e7d-41d4-85e3-16b46645db40, 0, 34604188-8bde-4670-8ebb-b01e204fa5e3, 3.78661)), 1.5000)
+</line>
+        </equivalent>
+        <equivalent>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, e8103d4e-14cd-41ac-83d7-a26875119ef8, 904db1cd-a0f8-4ede-b99a-f3cca6f8e89e, Ref(0.0000, 45.0000, 3.7632), 3.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, e8103d4e-14cd-41ac-83d7-a26875119ef8, e46d50e3-fb08-456d-ae04-e2826e039868, Ref(0.0000, 45.0000, 16.1850), 3.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, d2305caf-9be1-4747-8c12-6a2b5f0018c0, 904db1cd-a0f8-4ede-b99a-f3cca6f8e89e, Ref(45.0000, 0.0000, 16.1850), 1.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, d2305caf-9be1-4747-8c12-6a2b5f0018c0, d19a8964-8f1b-4954-a266-abec3e327442, Ref(-45.0000, 0.0000, 7.2632), 1.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, 6e17f48f-ea49-47ed-a120-495e15b2d8e7, d19a8964-8f1b-4954-a266-abec3e327442, Ref(0.0000, -45.0000, 16.1850), 3.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, 6e17f48f-ea49-47ed-a120-495e15b2d8e7, 8c107aab-11ef-4028-ab78-6526383625c7, Ref(0.0000, -45.0000, 3.7632), 3.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, e3b52a6c-a3a5-49d8-89d3-125b4d19bdb0, e46d50e3-fb08-456d-ae04-e2826e039868, Ref(45.0000, 0.0000, 3.7632), 1.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, e3b52a6c-a3a5-49d8-89d3-125b4d19bdb0, 8c107aab-11ef-4028-ab78-6526383625c7, Ref(-45.0000, 0.0000, 19.6850), 1.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Bandsaw(21dad88c-55b4-479a-9111-5df8f0d5658c, Path(421.7475/90.0225, 512.8926/-1.1225), Ref((34604188-8bde-4670-8ebb-b01e204fa5e3, 7.35157, 8c107aab-11ef-4028-ab78-6526383625c7, 0), (d19a8964-8f1b-4954-a266-abec3e327442, 0, 34604188-8bde-4670-8ebb-b01e204fa5e3, 3.85157)), 1.5000)
+</line>
+        </equivalent>
+    </Program>
+    <Program id="2" wlc="4" arr="6">
+        <equivalent>
+            <line>(89e02dbf-c21f-48ef-89d9-efef9a97765e) = Chopsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, 9c0b5ac9-8ba3-40db-b488-13793abd7917, 3634b265-e562-4b75-afd7-560ab77a0e82, Ref(0.0000, 45.0000, 20.1250), 3.5000)
+</line>
+            <line>(89e02dbf-c21f-48ef-89d9-efef9a97765e) = Chopsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, acd15a5e-91a9-4508-94d8-e7cf63955ac0, ef542fc6-5be4-4ba9-9c77-c1b01eb46793, Ref(45.0000, 0.0000, 20.1250), 1.5000)
+</line>
+            <line>(89e02dbf-c21f-48ef-89d9-efef9a97765e) = Chopsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, 05ccf29c-2fc1-47f3-be93-ea8aa3c3a3ab, 1060f76c-f1db-42dc-baeb-badd6efac1aa, Ref(0.0000, -45.0000, 20.1250), 3.5000)
+</line>
+            <line>(89e02dbf-c21f-48ef-89d9-efef9a97765e) = Chopsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, 74a56e95-411b-4077-95a8-c43bf8311833, 87a131e6-a738-4ea6-af5f-cf9c772d0df4, Ref(-45.0000, 0.0000, 23.6250), 1.5000)
+</line>
+            <line>(89e02dbf-c21f-48ef-89d9-efef9a97765e) = Bandsaw(b054fd41-d023-4cde-b5ca-cf6356ec6b14, Path(6.1574/-1.1225, 97.3025/90.0225), Ref((4c62d994-5848-479b-8a8d-33684c13dc96, 0.286612, 3634b265-e562-4b75-afd7-560ab77a0e82, 0), (ef542fc6-5be4-4ba9-9c77-c1b01eb46793, 0, 4c62d994-5848-479b-8a8d-33684c13dc96, 3.78661)), 1.5000)
+</line>
+        </equivalent>
+        <equivalent>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, 23d51218-8c3e-4e85-9589-06e6f935d369, c8bec129-4c7f-4106-a8c6-80e5170f6897, Ref(0.0000, 45.0000, 3.7632), 3.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, 23d51218-8c3e-4e85-9589-06e6f935d369, a9bfade1-d4f4-4167-a5a6-96e458b3c6fd, Ref(0.0000, 45.0000, 16.1850), 3.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, 6cea2567-991e-402a-bba2-dc07865063fe, c8bec129-4c7f-4106-a8c6-80e5170f6897, Ref(45.0000, 0.0000, 16.1850), 1.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, 6cea2567-991e-402a-bba2-dc07865063fe, d35635c2-78f0-4685-beb5-3715f12b8f37, Ref(-45.0000, 0.0000, 7.2632), 1.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, b605ac90-8418-4284-8159-c8dfa107781c, d35635c2-78f0-4685-beb5-3715f12b8f37, Ref(0.0000, -45.0000, 16.1850), 3.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, b605ac90-8418-4284-8159-c8dfa107781c, d415d09d-5f72-4c24-a7cf-e92343f0638a, Ref(0.0000, -45.0000, 3.7632), 3.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, 2a1bc576-3d42-4fb0-b322-1c30de13f1c4, a9bfade1-d4f4-4167-a5a6-96e458b3c6fd, Ref(45.0000, 0.0000, 3.7632), 1.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Chopsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, 2a1bc576-3d42-4fb0-b322-1c30de13f1c4, d415d09d-5f72-4c24-a7cf-e92343f0638a, Ref(-45.0000, 0.0000, 19.6850), 1.5000)
+</line>
+            <line>(079c8dcd-b6e0-4dd7-be3a-2cf089d3d3c5) = Bandsaw(89e02dbf-c21f-48ef-89d9-efef9a97765e, Path(421.7475/90.0225, 512.8926/-1.1225), Ref((4c62d994-5848-479b-8a8d-33684c13dc96, 7.35157, d415d09d-5f72-4c24-a7cf-e92343f0638a, 0), (d35635c2-78f0-4685-beb5-3715f12b8f37, 0, 4c62d994-5848-479b-8a8d-33684c13dc96, 3.85157)), 1.5000)
+</line>
+        </equivalent>
+    </Program>
+</root>
