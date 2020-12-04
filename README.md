@@ -5,8 +5,8 @@ Our carpentry compiler converts high-level geometric designs made by users to lo
 *Note that the current implementation is developed for research. We could not gurrentee its robustness. For any problem, please email Haisen Zhao (haisen@cs.washington.edu). 
 
 # Usage
-1, Download "FreeCADLibs_12.1.4_x64_VC15" from https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre;   
-Extract the package to the local path, "D:\Develop\FreeCADLibs_12.1.4_x64_VC15".
+1, Download "FreeCADLibs_12.1.4_x64_VC15" from https://github.com/FreeCAD/FreeCAD/releases/download/0.19_pre/FreeCADLibs_12.1.6_x64_VC15.7z;   
+Extract the package to the local path, "D:\Develop\FreeCADLibs_12.1.4_x64_VC15". This is a package that provides all necessary dependencies to compile FreeCAD with VS2015/17/19 (both release and debug mode). So we do not need to compiler the thired-party libraries for FreeCAD by ourselves. More details could be found in https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre.
 
 2, Clone FreeCAD with "git clone https://github.com/chenming-wu/FreeCAD.git"  to the local path, "D:\Develop\FreeCAD";
 
