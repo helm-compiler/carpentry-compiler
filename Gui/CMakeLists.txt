@@ -164,7 +164,6 @@ SET(PCE_SRCS
 	PCE_functs.cpp
 	PCE_Part.cpp
 	PCE_position.cpp
-    PCE_PPart.cpp
 	PCE_transform.cpp
 	PCE_WoodLumber.cpp
 )
